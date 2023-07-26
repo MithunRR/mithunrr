@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .profile{
-    background-image: url(/Images/it-bg.jpg);
+    background-image: url(it-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 120%;
     display: flex;  
