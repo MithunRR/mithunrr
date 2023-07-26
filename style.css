@@ -1,0 +1,142 @@
+/* &nbsp; */
+
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 8px;
+}
+
+.long-hr hr{
+    width: 80%;
+    height: 1px;
+    background-color: black;
+}
+
+.short-hr hr{
+    width: 40%;
+    height: 0.3px;
+    background-color: black;
+}
+
+.navbar{
+    /* margin: 30px; */
+    display: flex;
+    flex-flow: row;
+    background-color: black;
+}
+.navbar a{
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.profile{
+    background-image: url(/Images/it-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    display: flex;  
+    flex-flow: row wrap;  
+    padding: 30px;  
+    text-align: center;
+    /* border: 2px solid red; */
+    padding-left: 24%;
+    text-align: center;
+}
+
+.profile img{
+    float: right;
+    border: 2px solid orange;
+    border-radius: 32%;
+    margin-left: 10px;
+    width: 300px;
+}
+
+.h-text{
+    /* margin-left: 23%; */
+    margin-top: 100px;
+    text-align: center;
+    color: orange;
+}
+
+.brief h2{
+    text-align: center;
+}
+.brief h3{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.education h2{
+    text-align: center;
+}
+.education .be, .s-sec, .sec h3,h4{
+    text-align: center;
+}
+
+.skills h2{
+    text-align: center;
+}
+.skills h3{
+    display: inline;
+    position: relative;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 7px;
+    padding: 10px;
+}
+.skills .lang{
+    text-align: center;
+}
+
+.projects h2{
+    text-align: center;
+}
+
+.projects .web-page p,h3,a{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.projects .web-page a{
+    text-decoration: none;
+    color: blue;
+}
+
+.projects .solar p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.certification h2{
+    text-align: center;
+}
+.certification .python-c p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.certification .python-c a{
+    text-decoration: none;
+    color: blue;
+}
+
+.social-m h2{
+    text-align: center;
+}
+.social-m .social-m-links a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.social-m .social-m-links{
+    flex-flow: row;
+    margin-left: 41%;
+}
+.social-m .social-m-links button{
+    padding-right: 16px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: black;
+    
+}
