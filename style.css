@@ -24,13 +24,10 @@ h1, h2, h3, h4, h5, h6, p{
     background-color: black;
 }
 .navbar a{
-    margin: 20px;
     padding: 10px;
     text-decoration: none;
     color: white;
     font-size: 15px;
-    border: 1px solid red;
-    border-radius: 10px;
 }
 
 .profile{
@@ -82,8 +79,6 @@ h1, h2, h3, h4, h5, h6, p{
 .skills h3{
     display: inline;
     position: relative;
-    border: 2px solid red;
-    border-radius: 10px;
     margin: 7px;
     padding: 10px;
 }
