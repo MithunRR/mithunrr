@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p{
     background-color: black;
 }
 .navbar a{
-    padding: 10px;
+    margin:10px;
     text-decoration: none;
     color: white;
     font-size: 15px;
